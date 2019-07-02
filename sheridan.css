@@ -1,0 +1,151 @@
+html {
+  background: #003767;
+}
+
+.splash {
+  background-color: #003767;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #003767;
+  height:10.5em;
+}
+
+.logo {
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/SC/SClogo.png') center no-repeat;
+  display: inline-block;
+  width: 15.63em;
+  background-size: contain;	
+}
+
+header.header-page {
+  background-color:#00b2ce;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#00b2ce;
+  color: #e3e3e3;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #fff;
+}
+
+.header-page .tabs a.active {
+    border-bottom-color: #003767;
+}
+
+.header-page .buttons button {
+  background-color: #003767;
+  color: #fff;
+}
+
+.header-page button {
+  background-color: #00b2ce;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus
+{
+  background-color: #e3e3e3;
+  color: #003767;
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #003767;
+    color: #fff;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #00b2ce;
+}
+
+button:hover,
+button:focus {
+    background-color: #e3e3e3;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #003767;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #ff5000;
+}
+
+.user-info {
+    color: #fff;
+}
+
+.user-info a {
+    color: #e3e3e3;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #fff;
+}
+
+.open-nav {
+    color: #ddd;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #e3e3e3; /*default #007bff*/
+}
+
+ul.photo-requirements {
+    background-color: #353535;
+}
+
+table th,
+table td {
+    background: #e3e3e3;
+}
+
+.footer {
+    background: #003767;
+}
+
+.terms-container {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.form-login {
+    width: 100%;
+}
+
+a.sign-out {
+    display: none;
+}
+
